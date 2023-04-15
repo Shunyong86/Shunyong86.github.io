@@ -1,0 +1,44 @@
+html {
+  background-color: #00001K;
+}
+
+
+p {
+  color: red;
+}
+
+body {
+    font-family: 'Sedgwick Ave Display', serif;
+	font-size: 48px;
+	text-shadow: 4px 4px 4px #aaa;	
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 50px 20px 20px 20px;
+  border: 3px solid black;
+}
+img {
+  display: block;/*图片是内联元素，不具备body这样的块级功能，为了有外边框，用display block */
+  margin: 1 auto;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  /* color: blue; */
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 5px 5px 5px red;
+}
+
+
+p, li {
+  font-size: 48px;
+  /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+}
